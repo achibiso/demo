@@ -1,0 +1,110 @@
+body {
+	font-family: verdana, helvetica, arial, sans-serif;
+	
+	margin: 0;
+	padding: 0;
+background-color: #fbf8f1;
+
+}
+
+p,h1,h2,h3,main {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	color: black;
+}
+
+.layer1 {
+	width: 100%;
+    position: relative; 
+    background-image:url('../im/water.jpg');
+	background-repeat: no-repeat; 
+    height: 700px;  
+	background-position: 50% 55%; 
+	
+   }
+.layer2 {
+    position: absolute; 
+    bottom: 0px; 
+    
+    right: 0px;
+        
+   }
+
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+
+	font-weight: bold;
+}
+
+h2 {
+	font-family: ljk_Might Makes Right, Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	
+	font-weight: bold;
+}
+
+
+h3 {
+
+	font-size: 110%;
+
+	
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #CC0000;
+
+
+}
+table{
+	margin: auto;
+	
+}
+@font-face {
+    font-family: ljk_Might Makes Right; /* Гарнитура шрифта */
+    src: url(13887.ttf); /* Путь к файлу со шрифтом */
+   }
+a:hover{
+text-decoration: underline;
+}
+#footer {
+    background-color:#cec6b5;
+    height:100px;
+    margin:20px auto 0;
+    width:100%;
+}
+#footer2 {
+    background-color:#021617;
+    height:5%;
+    width:100%;
+}
+
+a.buttonns {
+  padding: 3px 14px;
+
+  background:  #fbf8f1;
+
+   border-style: solid;
+  border-width: 0px 3px 0px 0px;
+   border-color:#fbf8f1;
+
+  color: #000;
+  display:block;
+  width:90px;
+  line-height: 30px;
+  position: relative;
+  margin: 5px auto;
+  text-align: center;
+  text-decoration:none;
+}
+a.buttonns:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  color: #36603a;
+  border-width: 0px 3px 0px 0px;
+  border-color:#36603a;
+}
+
